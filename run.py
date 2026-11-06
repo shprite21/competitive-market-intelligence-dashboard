@@ -169,6 +169,11 @@ def main(argv=None):
         help="Download financial models using installed Ollama (several GB)",
     )
     parser.add_argument("--port", type=int, default=8501)
+    parser.add_argument(
+        "--smoke-test",
+        action="store_true",
+        help="Check dashboard startup and bundled exports without API keys",
+    )
     arguments = list(sys.argv[1:] if argv is None else argv)
     args = parser.parse_args(arguments)
     if not (3, 11) <= sys.version_info[:2] <= (3, 12):
@@ -183,6 +188,10 @@ def main(argv=None):
         return subprocess.call([str(python), str(ROOT / "run.py"), *arguments], cwd=ROOT)
     if args.pull_models:
         pull_models()
+    if args.smoke_test:
+        subprocess.run(
+            [str(python), str(ROOT / "scripts" / "check_fresh_clone.py")], check=True, cwd=ROOT
+        )
     if args.setup_only:
         print("Setup complete. Start with: python run.py")
         return 0

@@ -70,9 +70,12 @@ The app uses the Pinecone project belonging to the supplied key. With the same p
 ```sh
 python run.py --check
 python run.py --check --financial
+python run.py --setup-only --smoke-test
 ```
 
 The first command checks Python dependencies and reports key/model readiness without showing secret values. A missing key does not prevent opening archived reports. The second returns a failure status if Pinecone or either local financial model is missing. These commands can read `.env`, environment variables and Windows device storage; they cannot see keys entered only in a browser session. Presence checks do not validate provider quotas or billing; run one live analysis and one filing extraction on that laptop before leaving.
+
+The third command opens the app in Streamlit's test runtime, loads a bundled analysis and checks PDF exports for all three examples. It uses temporary history and never reads, changes or transmits your real keys.
 
 ## Tomorrow: start again
 

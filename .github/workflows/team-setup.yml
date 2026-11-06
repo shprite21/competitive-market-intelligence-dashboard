@@ -23,6 +23,8 @@ jobs:
         run: python run.py --setup-only
       - name: Check installed dashboard dependencies
         run: python run.py --check
+      - name: Open dashboard and export examples without credentials
+        run: python run.py --setup-only --smoke-test
       - name: Verify setup can be repeated
         run: python run.py --setup-only
       - name: Check Windows entry point
