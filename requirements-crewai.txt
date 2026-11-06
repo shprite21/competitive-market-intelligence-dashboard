@@ -1,0 +1,3 @@
+# Optional experimental CrewAI path. The team setup uses Custom LangChain.
+-r requirements.txt
+crewai>=0.80.0

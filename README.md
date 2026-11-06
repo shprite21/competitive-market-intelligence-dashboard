@@ -6,6 +6,18 @@ The competitor research workflow is based on [AI-Competitor-Intelligence-Market-
 
 ## Run the dashboard
 
+**For teammates cloning on another laptop: follow [Team setup](docs/TEAM_SETUP.md).** Install Python 3.12 and Git, clone this repository, then double-click `start.bat` (Windows) or run `bash start.sh` (macOS/Linux). The launcher creates the environment, installs dependencies and starts the app. The original developer's laptop is not required.
+
+```sh
+git clone https://github.com/shprite21/competitive-market-intelligence-dashboard.git
+cd competitive-market-intelligence-dashboard
+python run.py
+```
+
+Use `py -3.12 run.py` on Windows or `python3.12 run.py` on macOS/Linux if `python` is not available. API keys must be entered privately on the new laptop. Financial analysis also requires Ollama and downloaded models; the guide includes the complete checklist.
+
+For a manual setup instead:
+
 Install dependencies and configure keys:
 
 ```powershell

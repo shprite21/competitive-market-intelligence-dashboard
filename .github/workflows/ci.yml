@@ -27,11 +27,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          # Skip crewai on CI — it's heavy and not needed for unit tests
-          # (crewai is only required for the CrewAI orchestrator path; the
-          #  unit tests use the langchain fallback + mock paths).
-          grep -v '^crewai' requirements.txt > requirements-ci.txt
-          pip install -r requirements-ci.txt
+          pip install -r requirements.txt
 
       - name: Lint with ruff
         run: |

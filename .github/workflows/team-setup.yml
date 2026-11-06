@@ -1,0 +1,34 @@
+name: Fresh laptop setup
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  setup:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Create a clean project environment
+        run: python run.py --setup-only
+      - name: Check installed dashboard dependencies
+        run: python run.py --check
+      - name: Verify setup can be repeated
+        run: python run.py --setup-only
+      - name: Check Windows entry point
+        if: runner.os == 'Windows'
+        shell: cmd
+        run: start.bat --check
+      - name: Check macOS and Linux entry point
+        if: runner.os != 'Windows'
+        run: bash start.sh --check

@@ -3,7 +3,7 @@ name = "ai-competitor-intel"
 version = "0.1.0"
 description = "Multi-agent AI Competitor Intelligence & Market Analyst dashboard"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 license = { text = "MIT" }
 authors = [{ name = "Developer" }]
 
