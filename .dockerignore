@@ -1,0 +1,13 @@
+.git
+.tools
+.venv
+**/.env
+**/.env.*
+**/*.dpapi*
+.streamlit/secrets.toml
+Reports
+Notebooks
+**/__pycache__
+.pytest_cache
+.ruff_cache
+*.log

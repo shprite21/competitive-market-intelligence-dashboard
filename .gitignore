@@ -1,0 +1,27 @@
+.venv/
+.tools/
+Code/.env
+.env
+.streamlit/secrets.toml
+.streamlit/api_credentials.dpapi
+Reports/*.pdf
+__pycache__/
+*.py[cod]
+.env.*
+!.env.example
+**/.env.*
+!**/.env.example
+*.dpapi
+*.dpapi.tmp
+.pytest_cache/
+.ruff_cache/
+Notebooks/
+Reports/
+*.log
+*.pem
+*.key
+.coverage
+htmlcov/
+# Legacy notebook-only environment; the supported dashboard uses requirements.txt.
+Pipfile
+Pipfile.lock

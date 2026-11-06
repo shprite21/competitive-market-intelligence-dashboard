@@ -1,0 +1,130 @@
+{
+  "validation_date": "2026-11-06",
+  "timezone": "Asia/Calcutta",
+  "research": [
+    {
+      "topic": "Broadcom",
+      "depth": "Quick",
+      "mode": "Custom LangChain Orchestrator",
+      "words": 653,
+      "scores": {
+        "market_opportunity": 90,
+        "competitive_pressure": 75,
+        "growth_trajectory": 85,
+        "innovation_score": 88,
+        "risk_level": 60,
+        "market_maturity": 80
+      },
+      "estimated_usd": 0.0092647,
+      "pdf_pages": 5
+    },
+    {
+      "topic": "NVIDIA",
+      "depth": "Deep Dive",
+      "mode": "Custom LangChain Orchestrator",
+      "words": 663,
+      "scores": {
+        "market_opportunity": 92,
+        "competitive_pressure": 65,
+        "growth_trajectory": 88,
+        "innovation_score": 95,
+        "risk_level": 58,
+        "market_maturity": 70
+      },
+      "estimated_usd": 0.012091949999999999,
+      "pdf_pages": 4
+    },
+    {
+      "topic": "Reliance Industries",
+      "depth": "Quick",
+      "mode": "Custom LangChain Orchestrator",
+      "words": 732,
+      "scores": {
+        "market_opportunity": 90,
+        "competitive_pressure": 75,
+        "growth_trajectory": 85,
+        "innovation_score": 80,
+        "risk_level": 65,
+        "market_maturity": 70
+      },
+      "estimated_usd": 0.01086455,
+      "pdf_pages": 5
+    }
+  ],
+  "market_and_news": [
+    {
+      "ticker": "NVDA",
+      "period": "1mo",
+      "rows": 24
+    },
+    {
+      "ticker": "NVDA",
+      "period": "3mo",
+      "rows": 66
+    },
+    {
+      "ticker": "NVDA",
+      "period": "6mo",
+      "rows": 129
+    },
+    {
+      "ticker": "NVDA",
+      "period": "1y",
+      "rows": 252
+    },
+    {
+      "ticker": "NVDA",
+      "period": "2y",
+      "rows": 502
+    },
+    {
+      "ticker": "NVDA",
+      "period": "5y",
+      "rows": 1255
+    },
+    {
+      "company_search": "RELIANCE.NS",
+      "news_articles": 10
+    }
+  ],
+  "financial_statement_evidence": {
+    "Swiggy": {
+      "statement_of_profit_and_loss": {
+        "verified_fields": 4,
+        "fields": 7
+      },
+      "statement_of_cash_flow": {
+        "verified_fields": 3,
+        "fields": 7
+      },
+      "balance_sheet": {
+        "verified_fields": 4,
+        "fields": 4
+      }
+    },
+    "Reliance Industries": {
+      "statement_of_profit_and_loss": {
+        "verified_fields": 6,
+        "fields": 7
+      },
+      "statement_of_cash_flow": {
+        "verified_fields": 6,
+        "fields": 7
+      },
+      "balance_sheet": {
+        "verified_fields": 4,
+        "fields": 4
+      }
+    }
+  },
+  "secret_scan": {
+    "known_credentials_found": 0,
+    "credential_files_published": 0
+  },
+  "notes": [
+    "Archived examples are the original requested recent analyses, not the fresh audit runs.",
+    "Deep Dive fell back after a zero Pro quota and transient capacity errors.",
+    "Missing or unverified financial values are not normalized or claimed comparable.",
+    "AI research scores are illustrative; no claim of independently verified market facts."
+  ]
+}

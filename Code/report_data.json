@@ -1,0 +1,90 @@
+[
+    {
+        "company_name": "Reliance Industries",
+        "report_name": "A-25-26",
+        "url": "https://www.ril.com/sites/default/files/reports/RIL-Integrated-Annual-Report-2025-26.pdf",
+        "cached": true,
+        "published": "2026-05-30",
+        "file_location": "../Reports/Reliance Industries_A-25-26.pdf"
+    },
+    {
+        "company_name": "Adani Enterprises",
+        "report_name": "A-25-26",
+        "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Annual-Report/AEL-FY26.pdf",
+        "cached": true,
+        "published": "2026-05-30",
+        "file_location": "../Reports/Adani Enterprises_A-25-26.pdf"
+    },
+    {
+        "company_name": "Reliance Industries",
+        "report_name": "A-24-25",
+        "url": "https://www.ril.com/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
+        "cached": true,
+        "published": "2025-05-30",
+        "file_location": "../Reports/Reliance Industries_A-24-25.pdf"
+    },
+    {
+        "company_name": "Reliance Industries",
+        "report_name": "Q1-26-27",
+        "url": null,
+        "cached": false,
+        "published": "2026-08-14",
+        "file_location": null
+    },
+    {
+        "company_name": "Reliance Industries",
+        "report_name": "Q1-25-26",
+        "url": "https://www.ril.com/sites/default/files/2025-07/MediaRelease-RILQ1FY2025-26FinancialandOperationalPerformance.pdf",
+        "cached": true,
+        "published": "2025-08-14",
+        "file_location": "../Reports/Reliance Industries_Q1-25-26.pdf"
+    },
+    {
+        "company_name": "Reliance Industries",
+        "report_name": "Q2-26-27",
+        "url": null,
+        "cached": false,
+        "published": "2026-11-14",
+        "file_location": null
+    },
+    {
+        "company_name": "Reliance Industries",
+        "report_name": "Q3-26-27",
+        "url": null,
+        "cached": false,
+        "published": "2027-02-14",
+        "file_location": null
+    },
+    {
+        "company_name": "Reliance Industries",
+        "report_name": "Q4-26-27",
+        "url": null,
+        "cached": false,
+        "published": "2027-05-30",
+        "file_location": null
+    },
+    {
+        "company_name": "Swiggy",
+        "report_name": "A-25-26",
+        "url": "https://www.swiggy.com/corporate/wp-content/uploads/2026/07/annual-report-2025-26.pdf",
+        "cached": true,
+        "published": "2026-05-30",
+        "file_location": "../Reports/Swiggy_A-25-26.pdf"
+    },
+    {
+        "company_name": "Swiggy",
+        "report_name": "A-24-25",
+        "url": "https://www.swiggy.com/corporate/wp-content/uploads/2025/07/Swiggy-Annual-Report-FY-2024-25.pdf",
+        "cached": true,
+        "published": "2025-05-30",
+        "file_location": "../Reports/Swiggy_A-24-25.pdf"
+    },
+    {
+        "company_name": "Zomato",
+        "report_name": "A-24-25",
+        "url": "https://b.zmtcdn.com/investor-relations/Eternal_Annual_Report_2024-25.pdf",
+        "cached": null,
+        "published": "2026-05-30",
+        "file_location": null
+    }
+]

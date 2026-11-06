@@ -1,0 +1,37 @@
+# 12 packages total (stdlib modules like json, warnings, datetime, os, io excluded)
+
+# 1. Core LangChain
+langchain
+
+# 2. LangChain core primitives (tools, messages, documents, vectorstores)
+langchain-core
+
+# 3. Text splitting (RecursiveCharacterTextSplitter)
+langchain-text-splitters
+
+# 4. Community integrations (PyPDFLoader)
+langchain-community
+
+# 5. OpenAI embeddings (OpenAIEmbeddings - text-embedding-3-small)
+langchain-openai
+
+# 6. Ollama models (ChatOllama, OllamaEmbeddings - qwen3:8b, bge-m3)
+langchain-ollama
+
+# 7. Groq model (ChatGroq - llama-3.3-70b-versatile, top-level agent LLM)
+langchain-groq
+
+# 8. Pinecone LangChain integration (PineconeVectorStore)
+langchain-pinecone
+
+# 9. Pinecone client itself (Pinecone, ServerlessSpec, exceptions)
+pinecone
+
+# 10. PDF reading (PdfReader)
+pypdf
+
+# 11. HTTP requests (downloading filings)
+requests
+
+# 12. Environment variable management (.env file loading)
+python-dotenv
